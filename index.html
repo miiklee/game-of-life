@@ -7,12 +7,18 @@
     <h1>game of life</h1>
     </head>
     <style>
-        .square {
+        .dead {
             height: 50px;
             width: 50px;
             background-color: #F9EBE0;
             
-        }                   
+        }    
+        .alive {
+            height: 50px;
+            width: 50px;
+            background-color: #208AAE;
+            
+        }                  
         .container {
             display: grid;
             padding: 20px;
@@ -23,33 +29,34 @@
         }
     </style>
   <body>
-    <button>play</button>
+    <button id="music">play music</button>
+    <button id="nextGen">live life</button>
     <div class="container">
-        <div class="square" id="11"></div>
-        <div class="square" id="12"></div> 
-        <div class="square" id="13"></div> 
-        <div class="square" id="14"></div> 
-        <div class="square" id="15"></div> 
-        <div class="square" id="21"></div> 
-        <div class="square" id="22"></div> 
-        <div class="square" id="23"></div> 
-        <div class="square" id="24"></div> 
-        <div class="square" id="25"></div> 
-        <div class="square" id="31"></div> 
-        <div class="square" id="32"></div> 
-        <div class="square" id="33"></div> 
-        <div class="square" id="34"></div> 
-        <div class="square" id="35"></div> 
-        <div class="square" id="41"></div> 
-        <div class="square" id="42"></div> 
-        <div class="square" id="43"></div> 
-        <div class="square" id="44"></div> 
-        <div class="square" id="45"></div> 
-        <div class="square" id="51"></div> 
-        <div class="square" id="52"></div> 
-        <div class="square" id="53"></div> 
-        <div class="square" id="54"></div>     
-        <div class="square" id="55"></div> 
+        <div class="dead" id="11"></div>
+        <div class="dead" id="12"></div> 
+        <div class="dead" id="13"></div> 
+        <div class="dead" id="14"></div> 
+        <div class="dead" id="15"></div> 
+        <div class="dead" id="21"></div> 
+        <div class="dead" id="22"></div> 
+        <div class="dead" id="23"></div> 
+        <div class="dead" id="24"></div> 
+        <div class="dead" id="25"></div> 
+        <div class="dead" id="31"></div> 
+        <div class="dead" id="32"></div> 
+        <div class="dead" id="33"></div> 
+        <div class="dead" id="34"></div> 
+        <div class="dead" id="35"></div> 
+        <div class="dead" id="41"></div> 
+        <div class="dead" id="42"></div> 
+        <div class="dead" id="43"></div> 
+        <div class="dead" id="44"></div> 
+        <div class="dead" id="45"></div> 
+        <div class="dead" id="51"></div> 
+        <div class="dead" id="52"></div> 
+        <div class="dead" id="53"></div> 
+        <div class="dead" id="54"></div>     
+        <div class="dead" id="55"></div> 
 
         </div>
   </body>
